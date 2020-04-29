@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row{ width: 100%; }
+
+.col-1{
+    width: 8.33%;
+    float:left;
+}
+
+.col-2{
+    width: 16.67%;
+    float:left;
+}
+
+.col-3{
+    width: 25%;
+    float:left;
+}
+
+.col-4{
+    width: 33.33%; 
+    float:left;
+}
+
+.col-5{
+    width:41.65%; 
+    float:left;
+}
+
+.col-6{
+    width: 50%; 
+    float:left;
+}
+
+.col-7{
+    width: 58.33%;
+    float:left;
+}
+
+.col-8{
+    width: 66.67%;
+    float:left;
+}
+
+.col-9{
+    width: 75%;
+    float:left;
+}
+
+.col-10{
+    width: 83.33%;
+    float:left;
+}
+
+.col-11{
+    width: 91.67%;
+    float:left;
+}
+
+.col-12{
+    width: 100%; 
+    float:left;
+}
+
+section{
+    float: left;
+    width: 100%;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+
+/*Header CSS*/
+
+header{
+    background: url(../images/banner-bg5.png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+header .nav-bar{margin-top: 20px;}
+
+header .nav-bar .logo{
+    float: left;
+    width: 3%;
+    }
+
+header .nav-bar .logo img{
+    
+}
+
+header .nav-bar .menu{
+    width: 97%;
+}
+
+header .nav-bar .menu ul{
+    padding-left: 0;
+    display: inline-block;
+    float: right;
+}
+
+header .nav-bar .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+header .nav-bar .menu ul li a{
+    text-decoration: none;
+    color: 10c9c3;
+    color: #10c9c3;
+}
+
+header .nav-bar .menu ul li a:hover{
+    color: #bcbcbc;
+    transition: 0.5s linear;
+}
+
+header .text-area{
+    padding-left: 63%;
+    padding-top: 12%;
+}
+
+header .text-area h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+header .text-area p{
+    font-size: 16px;
+    color: #;
+    color: #bcbcbc;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    padding-right: 0%;
+}
+
+header .text-area a{
+    text-decoration: none;
+    color: #fff;
+    background: #10c9c3;
+    padding: 10px 35px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+header .text-area a:hover{
+    color: yellow;
+}
+
+
+
+/*About-us CSS*/
+
+.about-us{
+}
+
+.about-us .text-area{
+    text-align: center;
+    padding: 7% 23%;
+}
+
+.about-us .text-area h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-us .text-area p{
+    color: #787878;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.about-us .text-area img{}
+
+
+
+/*Skill CSS*/
+
+.skills{}
+
+.skills .category{
+    padding: 20% 15%;
+}
+
+.skills .category h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.skills .category p{
+    margin-bottom: 10px;
+}
+
+.skills .category progress{
+    margin-bottom: 20px;
+    width: 50% 3px;
+    width: 100%;
+    height: 3px;
+}
+
+
+/*Statistic CSS*/
+
+.statistic{
+    background: #10c9c3;
+}
+
+.statistic .box{
+    padding: 30% 0;
+    text-align: center;
+}
+
+.statistic .box img{
+}
+
+.statistic .box .text{
+    display: inline-block;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+.statistic .box .text h4{
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.statistic .box .text p{font-size: 16px;}
+
+
+/*Work CSS*/
+
+.work{
+    background:#f5f5f5;
+    
+}
+
+.work .box{
+      position: relative;
+      padding: 0;
+      height: 335px;
+}
+
+.work .box img{
+}
+
+.work .box .hover-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: 0.4s linear;
+}
+
+.work .box .hover-box ul{
+    padding-left: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work .box .hover-box ul li{
+    list-style: none;
+}
+
+.box:hover .hover-box{
+    opacity: 1;
+
+}
+
+
+.work .text{}
+
+.work p{
+    text-align: center;
+    color: #8e8e8e;
+    padding: 3% 0;
+    
+}
+
+
+
+/*Process CSS*/
+
+.process{
+    padding: 5% 0;
+}
+
+.process .text-area{
+    text-align: center;
+}
+
+.process .text-area h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.process .text-area p{
+    color: #787878;
+    margin-bottom: 30px;
+    padding: 0px 28%;
+    line-height: 1.7;
+}
+
+.process .process-box{
+    position: relative;
+}
+
+.process .process-box img{
+
+}
+
+.process .process-box .hover-box{}
+
+
+.process .process-box .hover-box ul{
+    padding-left: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+    padding: 17%;
+}
+
+.process .process-box .hover-box ul li{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(16, 201, 195, 0.6);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+}
+
+.process .process-box .hover-box ul li:hover{
+    
+    background-color: #10c9c3;
+    transition: 0.4s linear;
+}
+
+
+/*Features CSS*/
+
+.features{
+    text-align: center;
+    background: #f5f5f5;
+    padding: 5% 0;
+}
+
+.features .box{
+    margin-bottom: 1;
+    margin-bottom: 20%;
+    height: 150px;}
+
+.features .box img{
+    margin-bottom: 20px;
+}
+
+.features .box h4{
+    margin-bottom: 20px;
+}
+
+.features .box p{
+    padding: 0 10%;
+    color: #787878;
+    line-height: 1.7;
+}
+
+
+/*Statement CSS*/
+
+.statement{
+    background: #10c9c3;
+    padding: 3% 0;
+}
+
+.statement .text-area{
+    text-align: center;
+    padding: 8% 0;
+}
+
+.statement .text-area p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 0 24%;
+    line-height: 1.7;
+}
+
+.statement .text-area h6{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.statement ul{
+    padding-left: 0;
+    text-align: center;
+}
+
+.statement ul li{
+    list-style: none;
+}
+
+.statement ul li img{}
+
+
+/*Stiker CSS*/
+
+.stiker{}
+
+.stiker .stiker-box{
+    display: inline-block;
+    padding: 5%;
+}
+
+.stiker .stiker-box ul{
+    padding-left: 0;
+    display: inline-block;
+}
+
+.stiker .stiker-box ul li{
+    list-style: none;
+}
+
+
+
+/*Contact CSS*/
+
+.contact{
+    background: #f5f5f5;
+    padding: 5% 0;
+}
+
+.contact .text-area{
+    text-align: center;
+}
+
+.contact .text-area h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact .text-area p{
+    color: #787878;
+    margin-bottom: 20px;
+    padding: 0 28%;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.contact form{
+    width: 50%;
+    padding: 0 25%;
+   }
+
+.contact form .form-control{
+    width: 100%;
+    padding: 3%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    color: #787878;
+    border-radius: 5px;
+}
+
+.contact form .btn-submit{
+    border-radius: 5px;
+    float: right;padding: 2% 3%;
+    color: #fff;
+    background: #10c9c3;
+    margin-top: 5px;
+}
+
+.contact form .btn-submit:hover{
+    color: yellow;
+    transition: 0.4s linear;
+}
+
+/*Footer CSS*/
+
+.footer{
+    background: #141414;
+    padding: 5% 0;
+}
+
+.footer p{
+    color: #bcbcbc;
+    line-height: 1.7;
+}
+
+.footer .right{}
+
+.footer .right h5{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer .contact-info{
+}
+
+.footer .link-1{}
+
+.footer .link-2{}
+
+.footer .social-media{}
+
+.footer ul{
+    padding-left: 0;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #bcbcbc;
+    line-height: 1.7;
+}
+
+
+.footer ul li a:hover{
+    color: #00BCD4;
+    transition: 0.4s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
